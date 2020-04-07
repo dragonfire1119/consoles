@@ -26,9 +26,6 @@ class Provider extends Model
             'name' => 'GitHub',
         ],
         [
-            'name' => 'Hetzner',
-        ],
-        [
             'name' => 'Twitter',
         ],
         [
@@ -39,6 +36,9 @@ class Provider extends Model
         ],
         [
             'name' => 'Digital Ocean',
+        ],
+        [
+            'name' => 'Hetzner',
         ],
         [
             'name' => 'Vultr',
