@@ -7,6 +7,7 @@
             <input class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" type="search" placeholder="Search Providers">
         </form>    
     </div>
+    <div class="hidden visible"></div>
     @foreach ($providers as $provider)
         <div class="font-semibold m-2 text-gray-700 text-lg uppercase">{{ $provider->name }}</div>
         <div class="flex-grow flex flex-wrap rounded mx-2 mb-8 md:mx-0">
