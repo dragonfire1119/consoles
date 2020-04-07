@@ -118,6 +118,12 @@ class Console extends Model
             'provider' => 'Apple',
             'route' => 'apple/appstoreconnect',
         ],
+        [
+            'name' => 'Stripe Dashboard',
+            'url' => 'https://dashboard.stripe.com/',
+            'provider' => 'Stripe',
+            'route' => 'stripe',
+        ],
     ];
 
     /**

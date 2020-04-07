@@ -17,6 +17,9 @@ class Provider extends Model
             'name' => 'Apple',
         ],
         [
+            'name' => 'Stripe',
+        ],
+        [
             'name' => 'Google',
         ],
         [
