@@ -106,6 +106,18 @@ class Console extends Model
             'provider' => 'Laravel',
             'route' => 'laravel',
         ],
+        [
+            'name' => 'Apple Developer Console',
+            'url' => 'https://developer.apple.com/',
+            'provider' => 'Apple',
+            'route' => 'apple/developer',
+        ],
+        [
+            'name' => 'App Store Connect',
+            'url' => 'https://appstoreconnect.apple.com/',
+            'provider' => 'Apple',
+            'route' => 'apple/appstoreconnect',
+        ],
     ];
 
     /**
