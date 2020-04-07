@@ -20,6 +20,9 @@ class Provider extends Model
             'name' => 'Microsoft',
         ],
         [
+            'name' => 'Laravel',
+        ],
+        [
             'name' => 'GitHub',
         ],
         [
@@ -29,14 +32,17 @@ class Provider extends Model
             'name' => 'Twitter',
         ],
         [
-            'name' => 'Vultr',
-        ],
-        [
             'name' => 'Linode',
         ],
         [
+            'name' => 'StackPath',
+        ],
+        [
             'name' => 'Digital Ocean',
-        ]
+        ],
+        [
+            'name' => 'Vultr',
+        ],
     ];
 
     public function consoles()

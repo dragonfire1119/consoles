@@ -57,7 +57,7 @@ class Console extends Model
             'url' => 'https://console.hetzner.cloud',
             'provider' => 'Hetzner',
             'route' => 'hcloud',
-         ],
+        ],
         [
             'name' => 'Twitter Apps',
             'url' => 'https://developer.twitter.com/en/apps',
@@ -93,6 +93,18 @@ class Console extends Model
             'url' => 'https://cloud.digitalocean.com/',
             'provider' => 'Digital Ocean',
             'route' => 'digital-ocean',
+        ],
+        [
+            'name' => 'StackPath Cloud',
+            'url' => 'https://control.stackpath.com/',
+            'provider' => 'StackPath',
+            'route' => 'stackpath',
+        ],
+        [
+            'name' => 'Laravel Forge',
+            'url' => 'https://forge.laravel.com',
+            'provider' => 'Laravel',
+            'route' => 'laravel',
         ],
     ];
 
