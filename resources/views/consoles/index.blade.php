@@ -3,9 +3,14 @@
 @section('content')
 <div class="container max-w-4xl mx-auto">
     <div class="w-full">
-        <form class="mb-8">
-            <input class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" type="search" placeholder="Search Providers">
-        </form>    
+        <div class="mb-8">
+            <form class="mb-4">
+                <input class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" type="search" placeholder="Search Providers">
+            </form> 
+            <p class="text-center text-gray-500 text-xs">
+                Type "/" as a shortcut to focus
+            </p>   
+        </div>
     </div>
     <div class="hidden visible"></div>
     @foreach ($providers as $provider)

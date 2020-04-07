@@ -7,6 +7,7 @@
 // require("./bootstrap");
 
 import holmes from "holmes.js";
+import hotkeys from "hotkeys-js";
 
 // window.Vue = require("vue");
 
@@ -40,4 +41,10 @@ holmes({
     find: ".result",
     dynamic: true,
     mark: false
+});
+
+hotkeys("/", function(event, handler) {
+    // Prevent the default refresh event under WINDOWS system
+    event.preventDefault();
+    document.querySelector("input[type=search]").focus();
 });
