@@ -124,6 +124,18 @@ class Console extends Model
             'provider' => 'Stripe',
             'route' => 'stripe',
         ],
+        [
+            'name' => 'Cloudflare Dash',
+            'url' => 'https://dash.cloudflare.com/',
+            'provider' => 'Cloudflare',
+            'route' => 'cloudflare',
+        ],
+        [
+            'name' => 'Artisan Cheat Sheet',
+            'url' => 'https://artisan.page/',
+            'provider' => 'Laravel',
+            'route' => 'laravel',
+        ],
     ];
 
     /**
