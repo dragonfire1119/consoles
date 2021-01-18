@@ -20,6 +20,9 @@ class Provider extends Model
             'name' => 'Stripe',
         ],
         [
+            'name' => 'Cloudflare',
+        ],
+        [
             'name' => 'Google',
         ],
         [
